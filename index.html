@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Log In page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="log-in-box">
+            <header>
+                <h1 class="header__title">Log In</h1>
+                <p class="header__text">
+                    Log in to your account to upload or download 
+                    pictures, videos or music.
+                </p>
+            </header>
+            <main>
+                <form action="#">
+                    <input class="main__input" type="email" placeholder="Enter your email address">
+                </form>
+                <a class="main__link" href="#">Forgot password?</a>
+                <button class="main__btn-next" type="submit">Next→</button>
+                <div class="horizontal-line"></div>
+                <p class="main__text-or">Or log with</p>
+                <div class="btn-box">
+                    <button class="main__btn">
+                        <ion-icon class="main__icon" name="logo-facebook"></ion-icon>
+                        Facebook
+                    </button>
+                    <button class="main__btn">
+                        <ion-icon class="main__icon google" name="logo-google"></ion-icon>
+                        Google
+                    </button>
+                </div>
+            </main>
+            <footer>
+                <p class="footer__text">
+                    Don't have an account yet?<a href="#"> Sign up</a>
+                    <a target="_blank" href="https://github.com/abunv/13-project">
+                        <ion-icon class="footer__icon md hydrated" name="logo-github" role="img"></ion-icon>
+                    </a>
+                </p>
+            </footer>
+        </div>
+        <img class="img" src="./img/woter.png" alt="picture of water">
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
